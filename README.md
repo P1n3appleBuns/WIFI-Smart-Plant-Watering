@@ -52,13 +52,13 @@ This project is a **smart plant watering system** using an ESP32, a DHT11 temper
 **Gauge Widgets**
 - **Temperature** → V2, min 0, max 100°C  
 - **Humidity** → V1, min 0, max 100%  
-- **Soil Moisture** → V3, min 0, max 100  
+- **Soil Moisture** → V3, min 0, max 100 (analog reading of soil moisture detector)
 
 **Button Widget**
 - **Pump control** → V4, push mode  
 
-**LED Widget** (optional)
-- Soil moisture indicator → V0  
+**LED Widget**
+- Soil moisture indicator → V0 (digital reading of soil moisture detector) 
 
 > Make sure Min/Max ranges match your values for both your datastream and the widget; otherwise gauges may only show 0–1.
 
