@@ -28,7 +28,7 @@ This project is a **smart plant watering system** using an ESP32, a DHT11 temper
 **DHT11**
 - VCC → 3.3V  
 - GND → GND  
-- DATA → GPIO18  
+- DATA → GPIO32  
 
 **Soil Moisture Sensor**
 - AO → GPIO34 (Analog input, ADC1)  
@@ -38,9 +38,10 @@ This project is a **smart plant watering system** using an ESP32, a DHT11 temper
 
 **Relay / Water Pump**
 - IN → GPIO33  
-- VCC → 5V (relay board)  
+- VCC → 3.3V (relay board)  
 - GND → GND (common ground with ESP32)  
-- NO / COM → pump wiring  
+- COM → pump +
+- NO → battery pack +
 
 > ⚠️ Most relay modules are **active LOW**, meaning GPIO LOW = pump ON, HIGH = pump OFF.
 
