@@ -1,8 +1,8 @@
 /*WIFI Smart Plant Watering*/
 
-#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_ID " " //Blynk Template ID
 #define BLYNK_TEMPLATE_NAME "WIFI Smart Plant Watering"
-#define BLYNK_AUTH_TOKEN ""
+#define BLYNK_AUTH_TOKEN " " //Blynk Auth Token
 
 #include <WiFi.h>
 #include <WifiClient.h>
@@ -11,8 +11,8 @@
 #include <DHT.h>
 #include <DHT_U.h>
 
-char ssid[] = "";
-char pass[] = "";
+char ssid[] = ""; //WIFI Name
+char pass[] = ""; //WIFI Password
 
 //Pin Assignments
 #define humtempPin 32
