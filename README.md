@@ -19,9 +19,6 @@ This project is a **smart plant watering system** using an ESP32, a DHT11 temper
 | Capacitive Soil Moisture Sensor | 1 | Analog + digital outputs |
 | Relay Module | 1 | Controls water pump |
 | Water Pump | 1 | 3–5V small pump (or appropriate relay-controlled pump) |
-| Connecting Wires | — | Jumper wires for connections |
-| Breadboard or PCB | — | Optional |
-
 ---
 
 ## Circuit / Wiring
