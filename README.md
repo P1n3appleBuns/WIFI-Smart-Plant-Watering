@@ -46,15 +46,6 @@ This project is a **smart plant watering system** using an ESP32, a DHT11 temper
 
 ---
 
-## Software / Libraries
-- **Arduino IDE** (ESP32 board support installed)  
-- **Blynk library** (`BlynkSimpleEsp32`)  
-- **Adafruit DHT library** (`DHT.h`)  
-- **Blynk App** (iOS / Android)
-
----
-
-
 ## Blynk Dashboard Setup
 ![Alt text](images/Screenshot2025-09-02172134.png)
 **Gauge Widgets**
