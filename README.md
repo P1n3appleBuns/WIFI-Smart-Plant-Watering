@@ -1,7 +1,5 @@
 # WIFI Smart Plant Watering System
 
-![Alt text](images/IMG_7942.jpg)
-
 ## Overview
 This project is a **smart plant watering system** using an ESP32, a DHT11 temperature/humidity sensor, and a soil moisture sensor. The system monitors plant conditions and allows remote watering control via **Blynk**, a mobile IoT platform.
 
