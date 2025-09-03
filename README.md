@@ -54,27 +54,7 @@ This project is a **smart plant watering system** using an ESP32, a DHT11 temper
 
 ---
 
-## Code Overview
-
-**setup()**
-- Initializes serial, sensors, Blynk, and pins.
-
-**loop()**
-- Runs `Blynk.run()` and a timer to read sensors periodically.
-
-**moistureD()**
-- Reads **digital soil moisture**; turns LED on/off.
-
-**moistureA()**
-- Reads **analog soil moisture**; maps to 0–100% and sends to Blynk Gauge.
-
-**temperature() / humidity()**
-- Reads DHT11 values; sends to Blynk.
-
-**BLYNK_WRITE(VPIN_PUMP)**
-- Reads Blynk button value to turn water pump ON/OFF.
-
----
+![Alt text](images/Screenshot2025-09-02172134.png)
 
 ## Blynk Dashboard Setup
 **Gauge Widgets**
