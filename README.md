@@ -54,7 +54,7 @@ This project is a **smart plant watering system** using an ESP32, a DHT11 temper
 
 ---
 
-![Alt text](images/Screenshot2025-09-02172134.png)
+![Alt text](images/Screenshot 2025-09-02 172134.png)
 
 ## Blynk Dashboard Setup
 **Gauge Widgets**
