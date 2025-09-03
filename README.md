@@ -58,17 +58,17 @@ This project is a **smart plant watering system** using an ESP32, a DHT11 temper
 ## Blynk Dashboard Setup
 ![Alt text](images/Screenshot2025-09-02172134.png)
 **Gauge Widgets**
-- **Temperature** → V2, min 0, max 50°C  
+- **Temperature** → V2, min 0, max 100°C  
 - **Humidity** → V1, min 0, max 100%  
 - **Soil Moisture** → V3, min 0, max 100  
 
 **Button Widget**
-- **Pump control** → V4, switch mode  
+- **Pump control** → V4, push mode  
 
 **LED Widget** (optional)
-- Soil moisture indicator → V5  
+- Soil moisture indicator → V0  
 
-> Make sure Min/Max ranges match your values; otherwise gauges may only show 0–1.
+> Make sure Min/Max ranges match your values for both your datastream and the widget; otherwise gauges may only show 0–1.
 
 ---
 
@@ -76,7 +76,6 @@ This project is a **smart plant watering system** using an ESP32, a DHT11 temper
 - Use **ADC1 pins (32–39)** for analog sensors; ADC2 pins (0–15) may conflict with Wi-Fi.  
 - Check **relay logic**: if the pump turns on when it shouldn’t, invert GPIO logic.  
 - Include **common ground** between ESP32 and relay/pump.  
-- DHT11 readings may occasionally return **NaN**; the code includes error handling.
 
 ---
 
@@ -90,6 +89,10 @@ This project is a **smart plant watering system** using an ESP32, a DHT11 temper
 ## Quick Start
 1. Connect all sensors and relay as shown above.  
 2. Upload the Arduino code to the ESP32.  
-3. Open the Blynk app, add the widgets, and link virtual pins (V1–V5).  
+3. Open the Blynk app, add the widgets, and link virtual pins (V0–V4).  
 4. Power the ESP32 and check Serial Monitor for sensor readings.  
 5. Use the Blynk dashboard to monitor and manually water your plant.
+
+## Future Improvements
+1. Automatic watering under the right conditions
+2. 3D printed case for to hold the project along with water proofing
