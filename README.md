@@ -5,7 +5,7 @@
 ## Overview
 This project is a **smart plant watering system** using an ESP32, a DHT11 temperature/humidity sensor, and a soil moisture sensor. The system monitors plant conditions and allows remote watering control via **Blynk**, a mobile IoT platform.
 
-**Key features:**
+# Key features:
 - Monitors **temperature, humidity, and soil moisture**.
 - Sends real-time data to a **Blynk dashboard**.
 - Manual control of a **water pump** via a Blynk button.
